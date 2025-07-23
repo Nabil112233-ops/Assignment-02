@@ -1,0 +1,72 @@
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+@theme {
+--color-clifford: #da373d;
+}
+
+
+
+/* primary style */
+
+.display-flex{
+  display: flex;
+}
+
+
+/* nav bar */
+
+.cart-image{
+  width: 24px;
+  height: 24px;
+}
+.navbar{
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.cart-style{
+  gap: 10px;
+}
+.nav-links{
+  gap: 48px;
+}
+.home{
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+}
+
+/* Fresh Flower Container */
+.flower-container{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 120px;
+  justify-content: center;
+  align-items: flex-end;
+  height: 461px;
+}
+.flower-container img{
+  align-items: flex-end;
+}
+.text{
+  color: rgba(0, 0, 0, 0.5);
+}
+.flower-hp{
+  width: 570px;
+  height: 299px;
+  align-items: flex-end;
+}
