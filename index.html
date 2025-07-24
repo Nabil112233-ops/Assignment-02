@@ -14,27 +14,89 @@
     <title>Flower Market</title>
 </head>
 <body>
-    <header class="navbar display-flex justify-between items-center">
-        <div class="logo">
-            <img src="assets/logo.png" alt="">
+    <!-- header and nav style -->
+    <header class="navbar flex justify-between items-center">
+        <div>
+            <img class="logo-image" src="assets/logo.png" alt="">
         </div>
         <nav class="nav-links flex">
-            <a class="home" href="">Home</a>
-            <a class="text-[#8987A1]" href="">Shop</a>
-            <a class="text-[#8987A1]" href="">About us</a>
+            <ul class="flex gap-[48px] hidden md:flex">
+                <li><a class="home" href="">Home</a></li>
+                <li><a class="text-[#8987A1]" href="">Shop</a></li>
+                <li><a class="text-[#8987A1]" href="">About us</a></li>
+            </ul>    
             <div class="cart-style flex">
                 <img class="cart-image" src="assets/online-shopping.png" alt="">
                 <a href="">Cart ($56)</a>
             </div>
-        </nav>
+        </nav>    
     </header>
     <main>
+        <!-- flower content -->
         <section class="flex flower-container">
             <div class="flower-hp">
                 <h2 class="font-bold text-[65px] noto-serif">ALWAYS <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h2>
                 <p class="font-normal text-[22px] inter text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
-            <img src="assets/hero-flower.png" alt="">
+            <img class="flower-image" src="assets/hero-flower.png" alt="">
+        </section>
+
+        <!-- Our plants section -->
+        <section>
+            <div class="plants-container">
+                <h3 class="text-5xl font-bold noto-serif"><span class="text-[#E95A08]">Our</span> Plants</h3>
+                <p class="plants-description inter text-[22px] font-nornal ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="card-content">
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                    <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                    <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                    <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                    <button class="card-btn inter">ADD TO CART</button>
+                </div>
+                <div class="card-container">
+                   <img class="card-image" src="assets/sample-flower-image.png" alt="">
+                   <h3 class="inter text-[22px] font-normal text-[#111111] mt-[30px]">Lily Blossom</h3>
+                   <p class="inter text-[22px] font-bold text-[#111111] mb-[30px]">20 USD</p>
+                   <button class="card-btn inter">ADD TO CART</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
