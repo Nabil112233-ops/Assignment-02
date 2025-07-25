@@ -143,8 +143,64 @@
 }
 
 
-
-
+/* Latest Deals section */
+.deal-description{
+  color: rgba(0, 0, 0, 0.5);
+  width: 888px;
+  text-align: center;
+  margin: 16px auto 80px;
+}
+.deal-title{
+  text-align: center;
+  margin-top: 130px;
+}
+.deal-container{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4)) ,url(assets/deal-bloom.png);
+  background-size: cover;
+  width: 367px;
+  height: 201px;
+  background-position: center;
+  border-radius: 14px;
+  position: relative;
+  margin: 60px 28px 25px 146px;
+}
+.deal-container2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(assets/deal-ana.png);
+  background-size: cover;
+  width: 367px;
+  height: 201px;
+  background-position: center;
+  border-radius: 14px;
+  position: relative;
+  margin: 0 28px 120px 146px;
+}
+.deal-container3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(assets/deal-zabo.png);
+  background-size: cover;
+  width: 753px;
+  height: 423px;
+  background-position: center;
+  border-radius: 22px;
+  margin-top: 60px;
+}
+.deal-contents{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 172px 128px 151px;
+}
+.deal-content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 70px;
+}
+.all-deal-items{
+  display: flex;
+  margin-top: 80px;
+}
 
 /* media query for small device */
 @media screen and (max-width: 768px) {
@@ -220,13 +276,49 @@
     height: 250px;
     font-size: 14px;
     margin-left: 20px;
-
   }
   .flower-box{
     width: 361px;
     padding-bottom: 20px;
+    margin-top: -60px;
   }
   .flower-card-first{
     width: 361px;
+  }
+  .all-deal-items{
+    flex-direction: column;
+  }
+  .deal-title h3{
+    font-size: 24px;
+    margin-top: 300px;
+  }
+  .deal-title p{
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+  .deal-container, .deal-container2, .deal-container3{
+    width: 361px;
+    height: 180px;
+    margin: 20px auto 0;
+  }
+  .deal-contents h3{
+    font-size: 20px;
+  }
+  .deal-contents p{
+    font-size: 1rem;
+  }
+  .deal-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 42px 35px 69px;
+  }
+  .deal-container{
+    margin-top: -30px;
+  }
+  .deal-container3{
+    margin-bottom: 20px;
   }
 }
