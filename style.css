@@ -110,6 +110,7 @@
   font-size: 1rem;
   font-weight: 600;
   color: #FFFFFF;
+  cursor: pointer;
 }
 /* Flower Plants Lover */
 .flower-card{
@@ -202,6 +203,61 @@
   margin-top: 80px;
 }
 
+/* Input section */ 
+
+.input-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(33, 96, 136, 0.1)),url(assets/news-letter-bg.png);
+  width: 100%;
+  height: 533px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+/* Footer section */
+
+.footer-section{
+  width: 100%;
+  height: 348px;
+  color: #FFFFFF;
+}
+.footer-logo p{
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-logo{
+  width: 359px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 16px;
+}
+.footer-link ul{
+  color: gray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 32px;
+  column-gap: 110px;
+}
+.footer-site{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  gap: 24px;
+}
+.footer-container{
+  width: 1120px;
+  height: 270px;
+  margin: 80px 100px;
+  justify-content: center;
+  column-gap: 100px;
+}
 /* media query for small device */
 @media screen and (max-width: 768px) {
   .navbar{
@@ -213,6 +269,9 @@
     width: 63px;
     height: 38px;
   }
+
+
+
   .flower-container{
     flex-direction: column-reverse;
     align-items: center;
@@ -229,17 +288,23 @@
   .flower-hp h2{
     font-size: 1.5rem;
   }
+
+
+
+
   .plants-container{
-    /* width: 100%;
-    max-width: none; */
+    /* margin-inline: auto; */
     width: 361px;
   }
   .plants-description{
     width: 336px;
   }
+
+
+
   .card-content{
     grid-template-columns: repeat(2, 1fr);
-    margin: 28px 14px;
+    margin: 28px 28px;
   }
   .card-container{
     width: 171px;
@@ -253,15 +318,22 @@
     height: 50px;
     padding: 15px 30px;
   }
+
+
+
+
   .flower-card{
     flex-direction: column;
-    margin: 41px 18px 18px 17px;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 41px auto 17px;
     max-width: 100%;
   }
   .flower-store{
     width: 358px;
     height: 397px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+    margin: 0 auto;
   }
   .flower-badge{
     display: none;
@@ -285,8 +357,13 @@
   .flower-card-first{
     width: 361px;
   }
+
+
+
+
   .all-deal-items{
     flex-direction: column;
+    margin: 30px auto;
   }
   .deal-title h3{
     font-size: 24px;
@@ -305,6 +382,9 @@
   .deal-contents h3{
     font-size: 20px;
   }
+  .deal-container h3{
+    width: 230px;
+  }
   .deal-contents p{
     font-size: 1rem;
   }
@@ -320,5 +400,60 @@
   }
   .deal-container3{
     margin-bottom: 20px;
+  }
+
+
+
+
+  .input-container{
+    width: 100%;
+    height: 275px;
+    margin-top: 45px;
+  }
+  .input-title{
+    font-size: 1.25rem;
+  }
+  .input-box{
+    width: 218px;
+  }
+  .input-btn{
+    width: 103px;
+    font-size: 1rem;
+    padding: 15px 12px;
+  }
+
+
+
+
+  .footer-logo{
+    width: 360px;
+    height: 200px;
+  }
+  .footer-container{
+    flex-direction: column;
+    width: 390px;
+  }
+  .footer-link ul{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+    width: 360px;
+  }
+  .footer-section{
+    width: 360px;
+    height: 765px;
+  }
+  .footer-logo img{
+    width: 180px;
+    height: 109px;
+  }
+  .footer-logo p{
+    font-size: 1rem; 
+    margin-bottom: 20px;
+  }
+  .footer-container{
+    margin: 300px 16px;
+  }
+  .footer-link{
+    width: 390px;
   }
 }
